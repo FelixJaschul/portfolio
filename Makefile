@@ -7,7 +7,8 @@ run:
 clean:
 	rm -rf .zig-cache
 	rm -rf zig-out
-	rm -rf index.js index.wasm
+	rm -rf index.js
+	rm -rf index.wasm
 	rm -rf index.html
 
 open:
