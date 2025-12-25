@@ -81,7 +81,7 @@ pub fn main() void {
         .frame_cb = frame,
         .cleanup_cb = cleanup,
         .event_cb = event,
-        .window_title = "Portfolio",
+        .window_title = "Felix Jaschul",
         .width = 1400,
         .height = 800,
         .icon = .{ .sokol_default = true },
