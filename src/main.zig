@@ -25,7 +25,7 @@ export fn init() void {
     });
     const io = ig.igGetIO();
     if (use_docking) io.*.ConfigFlags |= ig.ImGuiConfigFlags_DockingEnable;
-    io.*.IniFilename = "src/imgui.ini";
+    io.*.IniFilename = null;
 
     // initial clear color: dark gray
     state.pass_action.colors[0] = .{
