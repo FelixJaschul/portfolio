@@ -5,6 +5,7 @@ run:
 	cp build/zig-out/web/index.html .
 
 clean:
+	rm -rf .idea
 	rm -rf .zig-cache
 	rm -rf zig-out
 	rm -rf index.js
